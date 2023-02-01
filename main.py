@@ -8,9 +8,9 @@ def main():
 
 RP = int(input('Regular Price: '))
 RT = int(input('Rate: '))
-print('Regular Price: $', RP)
-print('Discount Amout: $', RP*RT/100)
-print('The final price: $', RP-RP*RT/100)
+print('Regular Price:  $', format(RP, '.0f'))
+print('Discount Amout: $', format(RP*RT/100, '.0f'))
+print('The final price:$', format(RP-RP*RT/100, '.0f'))
 
 
 if __name__ == '__main__':
